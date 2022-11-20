@@ -1,0 +1,97 @@
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-left: 170px;
+  margin-top: 10px;
+  border-radius:50%;
+}
+.user_name{
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.set2
+{
+  font-size: 25px;
+  color: #056aee;
+  margin-top: 1%;
+  align-items: center;
+  justify-content: center;
+  display: flex ;
+}
+.test_name{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.wee
+{
+  color:#056aee;
+  padding:20px 20px;
+  font-size: 20px;
+  font-weight: 900;   
+}
+
+.view1{
+  border: 5rpx solid #056aee;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  width: 165px;
+  height: 63px;
+
+}
+.view2{
+  border: 5rpx solid #056aee;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  width: 340px;
+  height: 100px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.text1{
+  font-size:14px;
+  font-weight: bold;
+}
+.text2{
+  font-size:10px;
+  
+}
+.about-banner{
+  width: 23px;
+  height: 23px;
+  margin-left: 36px;
+  margin-top: 6px;
+}
+.setting
+{
+  margin-top: 5px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
+.point{
+  border: 5rpx solid #056aee;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  width: 340px;
+  height: 50px;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}
+.tip
+{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+

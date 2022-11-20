@@ -1,0 +1,17 @@
+/* Components/SearchInput/SearchInput.wxss */
+.searchInput{
+  height: 90rpx;
+  padding: 10rpx; /*注意，这里用的是 rpx*/
+  background-color: var(--TheamColor); /*这是less的写法  使用了变量*/
+  }
+  navigator{
+  width: 100%;
+  height: 100%; /*继承父组件的高度*/
+  display: flex; /*定义成伸缩盒子*/
+  justify-content: center; /* 内容居中 */
+  align-items: center;  /*垂直居中*/
+  background-color: #fff; /*背景色*/
+  border-radius: 18rpx;  /*圆形边框*/
+  color:#666 ;
+  }
+  

@@ -1,0 +1,54 @@
+<view class="title" style="margin-top: 30px;">Listen</view>
+<view class="right1">
+<view class="setting">
+
+<view class="weui-search-bar" bindtap="f1">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <text class="text1">语法</text>
+        </view>
+        <view class="text2">{{part1}}</view>
+        <image class='about-banner' src="{{icon1}}" ></image>
+    </view>       
+</view>
+
+<view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <text class="text1">演讲</text>
+        </view>
+        <view class="text2">{{part2}}</view>
+        <image class='about-banner' src="{{icon2}}" ></image>
+    </view>       
+</view>
+</view>
+<view class="setting">
+<view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <text class="text1">观点</text>
+        </view>
+        <view class="text2">{{part3}}</view>
+        <image class='about-banner' src="{{icon3}}" ></image>
+    </view>       
+</view>
+<view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <text class="text1">新闻</text>
+        </view>
+        <view class="text2">{{part4}}</view>
+        <image class='about-banner' src="{{icon4}}" ></image>
+    </view>       
+</view>
+</view>
+<view style="opacity:{{0.3}}" class="weui-search-bar">
+    <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <text class="text1">建造中...</text>
+        </view>
+        <view class="text2">{{part5}}</view>
+        <image class='about-banner' src="{{icon5}}" ></image>
+    </view>       
+</view>
+</view>

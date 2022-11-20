@@ -1,0 +1,62 @@
+.title{
+  margin-left: 40rpx;
+  margin-top: 16px;
+  font-weight:bolder; 
+  font-size:24px;
+}
+.right1{
+  margin-left: 15rpx;
+}
+.weui-search-bar {
+  padding:25px 5px;
+  box-sizing: border-box;
+}
+.weui-search-bar__form {
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 5rpx solid #0485fd;
+  width: 330rpx;
+  height: 330rpx;
+  margin-right: 5rpx;
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.setting
+{
+  height:22vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top: 70rpx;
+}
+.text1{
+  color: rgb(1, 81, 253);
+  font-size:35rpx;
+  font-weight: bold;
+  text-align: center;
+  
+  padding:10px 16px 10px 10px;
+
+}
+.about-banner{
+  width: 75rpx;
+  height: 75rpx;
+  margin-bottom: 5px;
+  margin-left: 240rpx;
+}
+.text2{
+  font-size:30rpx;
+  padding:10px 16px;
+  margin-left: 4rpx;
+  margin-right:4rpx;
+}
+.weui-search-bar__box
+{
+  margin-top: 5px;
+}
+.setting{
+  display: flex;
+  flex-direction: row;
+}
