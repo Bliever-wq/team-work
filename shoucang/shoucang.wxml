@@ -1,0 +1,8 @@
+<view bindtap="f1" data-id="{{item._id}}" data-id_1="{{item.level}}" data-id_2="{{item.ming}}" data-id_3="{{item.skill}}" data-id_4="{{item.imagepath}}"  wx:for="{{h}}" class="divLine" wx:key="index">
+  <text class="text1">{{item.location}}</text>
+  <text>\n</text>
+  <view class='setting'>
+    <text class="title1">{{item.name}}</text>
+    <image class='about-banner' src="{{item.imagepath}}"></image>
+  </view>
+</view>
