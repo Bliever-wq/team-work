@@ -1,32 +1,36 @@
-.view1{
-   border: 5rpx solid #056aee;
-   border-radius: 20rpx;
-   padding: 10rpx;
- }
- .end1{
-  font-weight: bold; 
-  font-size:30rpx;
-  margin-top: 20rpx;
-  margin-left:490rpx;
- }
- .p {
-  padding-bottom:50rpx;
+.text1
+{
+  height:500px;
+  white-space:pre-line;
+ 
 }
- .container{
-  height: 100vh;
-  text-align: center;
+.base-button .book-button-left {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items:center;
- }
+}
+.base-button .book-button-left view image {
+  padding-top: 10rpx; 
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.base-button .book-button-left view view {
+  width: 100%;
+  font-size: 20rpx;
+  color: #515151;
+}
+ 
+/* 点击后的样式 */
+.active {
+  color: #8a8a8a !important;
+}
  text{display: block;}
  
  .about-banner{
-   margin-top: 40rpx;
-   width: 650rpx;
-   height: 475rpx;
-   margin-bottom: 30rpx;
+   width: 50rpx;
+   height: 50rpx;
+   margin-top: 8px;
+   margin-left: 70px;
  }
  .setting{
   margin-top: 40rpx;
@@ -42,19 +46,24 @@
   font-size:40rpx;
   margin-bottom: 20px;
  }
-
-
  .tab {
   float: left;
   width: 33.3333%;
   text-align: center;
   padding: 10rpx 0;
 }
- 
+.setting1
+{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+}
 .topTabSwiper {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  zoom: 1;
+  border: 5rpx solid #056aee;
+  border-radius: 200rpx;
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 200px;
 }
  
 .topTabSwiper:after {
@@ -64,7 +73,7 @@
 }
  
 .tabBorer {
-  border-bottom: 1px solid rgb(0, 81, 255);
+ 
   color: rgb(0, 68, 255);
 }
  
@@ -73,22 +82,15 @@
 }
  
 .swiper_con {
- 
-  width: 100%;
-  height: 100%;
-  padding: 20rpx 0;
+  padding: 20rpx
 }
 
 
-
-view{
-  box-sizing: border-box;
-}
 .index-top{
   width: 100%;
   float: left;
   overflow: hidden;
-  padding: 3% 5%;
+  padding: 3%;
 }
 .top-currin,.top-blue{
   width: 25%;
@@ -170,11 +172,11 @@ view{
   transform: translateY(0rpx);
   text-align: center;
 }
-.centent{
-  width: 100%;
-  float: left;
-  padding: 5% 3% 3% 3%;
-  overflow: hidden;
+
+.pic{
+   width: 650rpx;
+   height:440rpx;
+   border:5px solid #0081FF;
 }
 .centent-title{
   width: 100%;
@@ -183,20 +185,26 @@ view{
   line-height: 46rpx;
   font-size: 32rpx;
 }
+.view1{
+  border: 5rpx solid #056aee;
+  border-radius: 20rpx;
+  padding: 10rpx;
+  
+}
+.centent{
+ width: 95%;
+ overflow: hidden;
+}
 .centent-group{
-  width: 100%;
-  float: left;
+  width: 95%;
   overflow: hidden;
 }
-.group-radio{
-  width: 100%;
-  float: left;
-  margin-top: 30rpx;
-}
 .radio-span{
-  position: relative;
-  top: 2rpx;
-  margin: 0 6rpx 0 8rpx
+  display: flex;
+  justify-content: space-around;
+}
+.group-radio{
+  margin-top: 30rpx;
 }
 .bottom{
   width: 100%;

@@ -7,7 +7,7 @@
 </button>
 
 <block  wx:elif="{{!hasUserInfo}}"> 
-<button  style="height: 93px;font-weight: bold;" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile" 
+<button  style="height: 96px;font-weight: bold;" wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile" 
 class="set2"> 点击此处授权登录 </button>
 <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像\n昵称 </button>
 </block>
@@ -24,7 +24,7 @@ class="set2"> 点击此处授权登录 </button>
       </view>
 
 <view class="setting">
-   <view class="view1">
+   <view class="view1" bindtap='collection'>
     <view class="setting">
          <view>
          <text class="text1">篇目收藏\n</text>
@@ -33,7 +33,7 @@ class="set2"> 点击此处授权登录 </button>
          <image style="width: 30px;height: 30px;" class='about-banner' src="https://i.imgtg.com/2022/11/17/t4kzB.png" ></image>
     </view>     
   </view>
-  <view class="view1" style="margin-left: 10px;">
+  <view class="view1" style="margin-left: 10px;" bindtap='history'>
     <view class="setting">
          <view>
          <text class="text1">历史记录\n</text>
@@ -43,7 +43,7 @@ class="set2"> 点击此处授权登录 </button>
     </view>     
   </view>
 </view>
-  <view class="view1" style="margin-top: 10px;margin-left: 16px;">
+  <view class="view1" style="margin-top: 10px;margin-left: 16px;"bindtap='notebook'>
     <view class="setting">
          <view>
          <text class="text1">单词本\n</text>

@@ -5,16 +5,21 @@
     "listen/listen",
     "read/read",
     "listen_part/listen_part",
+    "listen_part2/listen_part2",
     "article/article",
     "grammar/grammar",
-    "about/about",
+    "speh/speh",
+    "viep/viep",
+    "news/news",
+    "about1/about1",
+    "collection/collection",
+    "notebook/notebook",
+    "history/history",
     "suggestion/suggestion"
   ],
   "window": {
-    "enablePullDownRefresh": true,
-    "background-Color":"#008080"
+    "enablePullDownRefresh": true 
   },
-  "navigationBarBackgroundColor":"#056aee",
   "tabBar": {
     "selectedColor": "#0000CC",
     "custom": false,

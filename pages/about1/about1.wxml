@@ -1,0 +1,6 @@
+<view class="page">
+<view style="font-size:30px;font-weight:800;width:100%;margin-top: 30px;margin-bottom: 10px;">开发者信息</view>
+<view><text style="font-size:20px;">
+汪艺钦\n林世斌\n李东辉\n廖杰龙\n邵京京\n刘东航\n蒋征宇\n康江平\n方健\n李阳
+</text></view>
+</view>

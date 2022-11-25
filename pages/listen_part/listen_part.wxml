@@ -1,84 +1,68 @@
- <view class="p">
+<view class="p">
   <view class="setting">
-       <text style="color: rgb(17, 98, 248);" class="title">{{mid2}}</text>
-       <!-- <image class='about-banner' src="{{mid4}}"></image>   -->
-      
-<audio style="margin-left: 20px;" poster="{{mid4}}" name="{{audio[0].name}}" author="{{audio[0].author}}" src="{{audio[0].src}}" controls loop></audio>
+    <text style="color: rgb(17, 98, 248);" class="title">{{mid2}}</text>
+    <!-- <image class='about-banner' src="{{mid4}}"></image>   -->
 
-    <view class='topTabSwiper'>
-    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>Script</view>
-    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>Quiz</view>
-    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>Review</view>
+    <audio style="margin-left: 20px;" poster="{{mid4}}" name="{{mid5}}" author="{{mid6}}" src="{{mid7}}" controls loop></audio>
+
+    <view class="setting1">
+      <view class='topTabSwiper' style="word-break: break-all;">
+        <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>Quiz</view>
+        <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>Script</view>
+      </view>
+      <view>
+        <view wx:if="{{addBookrackSucceed==true}}">
+          <view bindtap="cancelAddBookrack">
+            <image class="about-banner" src="https://i.imgtg.com/2022/11/23/4heQ6.png"></image>
+          </view>
+        </view>
+        <view wx:else>
+          <view bindtap="chooseAddBookrack">
+            <image class="about-banner" src="https://i.imgtg.com/2022/11/23/4hNAF.png"></image>
+          </view>
+        </view>
+      </view>
     </view>
     <swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
-
-      <swiper-item><view class='swiper_con'>
-       <view class="view1">
-       <text style='font-size:30rpx;'>{{mid3}}</text>
-       </view>
-      </view></swiper-item>
-     
-      <swiper-item><view class='swiper_con'>
-        
-        <view class="index-top">
-  <view class="{{index <= curring && curring != 0?'top-blue':'top-currin'}} {{index > 0 && curring < 2?'top-fint':'top-ping'}} {{2 == curring?'top-nux':''}} {{2 < curring?'top-name':''}}" wx:for="{{4}}" wx:key="index">
-    <view class="{{index <= curring?'top-buing':'top-bloc'}}">
-      <text>✦</text>
-      <span>{{index+1}}</span>
-    </view>
-  </view>
-</view>
-
-
-<view class="centent" wx:for="{{detail}}" wx:key="index" wx:if="{{index == number}}">
-
-
-  <view class="centent-title">{{index+1}}. {{item.title}}</view>
-  <radio-group class="centent-group">
-    <radio class="group-radio" bindtap="radioChange" wx:for="{{item.array}}" wx:for-item="cell" data-index="{{index}}" data-id="{{item.id}}" wx:key="index" checked="{{cell.usname}}">
-      <span class="radio-span" wx:if="{{index == 0}}">A.</span>
-      <span class="radio-span" wx:if="{{index == 1}}">B.</span>
-      <span class="radio-span" wx:if="{{index == 2}}">C.</span>
-      <span class="radio-span" wx:if="{{index == 3}}">D.</span>
-      <text>{{cell.name}}</text>
-    </radio>
-  </radio-group>
-</view>
-
-<view class="bottom" wx:if="{{number != detail.length}}">
-<view bindtap="previous" wx:if="{{number != 0}}">上一步</view>
-<view bindtap="nextstep" style="{{number == 0?'margin:0 30%;':''}}">下一步</view>
-</view> 
-
-<view class="submission" wx:if="{{number == detail.length}}">
-  <view>
-  <image src="https://i.imgtg.com/2022/11/15/tmBMM.png"></image>
-  </view>
-  <view class="submission-center" bindtap="subsic">提交答案</view>
-</view>
-
-       
-      </view></swiper-item>
-      <swiper-item><view class='swiper_con'>
-      <view class="view1">
-       <text style='font-size:30rpx;'>
-       Barren: α.贫瘠的，不毛的\n
-       Subordinate: a. 次要的，从属的\n
-       Notorious: a. 臭名昭著的，声名狼藉的\n
-       Simultaneously: ad. 同时发生地\n
-       Mechanism: n. 机械装置\n
-       Denial: n. 否认，否定，拒绝给与(正义，权利)\n
-       Smash: n. 打碎，粉碎\n
-       </text>
-       </view>
-      </view></swiper-item>
+      <swiper-item>
+        <view class='swiper_con'>
+          <view class="index-top">
+            <view class="{{index <= curring && curring != 0?'top-blue':'top-currin'}} {{index > 0 && curring < 1?'top-fint':'top-ping'}} {{1 == curring?'top-nux':''}} " wx:for="{{3}}" wx:key="index">
+              <view class="{{index <= curring?'top-buing':'top-bloc'}}">
+                <text>✦</text>
+                <span>{{index+1}}</span>
+              </view>
+            </view>
+          </view>
+          <view class="centent" wx:for="{{detail}}" wx:key="index" wx:if="{{index == number}}">
+            
+            <radio-group class="centent-group">
+              <radio class="group-radio" bindtap="radioChange" wx:for="{{item.array}}" wx:for-item="cell" data-index="{{index}}" data-id="{{item.id}}" wx:key="index" checked="{{cell.usname}}">
+                <span class="radio-span" wx:if="{{index == 0}}">{{cell.name}}</span>
+                <span class="radio-span" wx:if="{{index == 1}}">{{cell.name}}</span>
+                <span class="radio-span" wx:if="{{index == 2}}">{{cell.name}}</span>
+                <span class="radio-span" wx:if="{{index == 3}}">{{cell.name}}</span>
+              </radio>
+            </radio-group>
+          </view>
+          <view class="bottom" wx:if="{{number != detail.length}}">
+            <view bindtap="previous" wx:if="{{number != 0}}">上一步</view>
+            <view bindtap="nextstep" style="{{number == 0?'margin:0 30%;':''}}">下一步</view>
+          </view>
+          <view class="submission" wx:if="{{number == detail.length}}">
+            <view class="submission-center" bindtap="subsic">提交答案</view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='swiper_con'>
+          <view class="view1">
+            <scroll-view scroll-y='true' scroll-with-animation='true' bindscroll='scrollFunc' class="text1">{{mid3}}
+            </scroll-view>
+          </view>
+        </view>
+      </swiper-item>
     </swiper>
-      
+
   </view>
 </view>
-
-
-
-
-
-

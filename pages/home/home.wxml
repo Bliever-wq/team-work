@@ -1,35 +1,24 @@
 <view class="font">Search</view>
 <view>
-     <view>
-        <view class="weui-search-bar">
-            <view class="weui-search-bar__form">
-        
-                <view class="weui-search-bar__box">
-                    <icon color="#0000f0" class="weui-icon-search_in-box" type="search" size="14"></icon>
-                    <input type="text" class="weui-search-bar__input"/>
-                </view>
-            </view>
-            <!-- 取消搜索 -->
-         
+  <view>
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon color="#0000f0" class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" />
         </view>
+      </view>
+      <!-- 取消搜索 -->
     </view>
+  </view>
 </view>
 <view class="wee" style="margin-top: 16px;"><text class="font">Lastest</text>
 </view>
-<view bindtap="f1" 
-  data-id_1="{{item.level}}"
-  data-id_2="{{item.ming}}"
-  data-id_3="{{item.skill}}"
-  data-id_4="{{item.imagepath}}"
-  wx:for="{{article}}" class="view1">
+<view bindtap="f1" data-id_1="{{item.level}}" data-id_2="{{item.ming}}" data-id_3="{{item.skill}}" data-id_4="{{item.imagepath}}" wx:for="{{article}}" class="view1">
   <text class="text1">{{item.location}}</text>
   <text>\n</text>
   <view class='setting'>
-  <text class="title1">{{item.name}}</text>
-  <image class='about-banner' src="{{item.level}}" ></image>
-</view>
+    <text class="title1">{{item.name}}</text>
+    <image class='about-banner' src="{{item.level}}"></image>
   </view>
-
-     
- 
-
+</view>

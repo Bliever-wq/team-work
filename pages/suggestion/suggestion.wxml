@@ -1,7 +1,6 @@
-
-    <view class="input_content" style="margin-top: 160px;">
-        <textarea class="input" placeholder="请在这里填写建议和发现的问题~"></textarea>
-    </view>
-    <view class="ok" bindtap="ok" style="margin-top: 160px;">
-       <view class="word-ok">提交~</view>
-    </view>
+<view class="input_content" style="margin-top: 160px;">
+  <textarea class="input" placeholder="请在这里填写建议和发现的问题~"></textarea>
+</view>
+<view class="ok" bindtap="ok" style="margin-top: 160px;">
+  <view class="word-ok">提交~</view>
+</view>

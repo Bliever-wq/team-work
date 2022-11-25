@@ -3,13 +3,8 @@
     "cusotm-tab-bar/index"
   ],
   "description": "项目配置文件",
-  "packOptions": {
-    "ignore": [],
-    "include": []
-  },
   "miniprogramRoot": "pages/",
   "compileType": "miniprogram",
-  "projectname": "ts-demo",
   "setting": {
     "useCompilerPlugins": [
       "typescript"
@@ -20,16 +15,24 @@
       "outputPath": ""
     },
     "ignoreUploadUnusedFiles": true,
-    "minified": true
+    "minified": true,
+    "coverView": false,
+    "postcss": false,
+    "enhance": false,
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": []
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {},
   "srcMiniprogramRoot": "pages/",
-  "appid": "wx94da489d9f61c33a",
-  "libVersion": "2.26.1",
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wx9fdad38ecbbd2812"
 }

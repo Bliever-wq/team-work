@@ -1,7 +1,7 @@
 /* pages/suggestion/suggestion.wxss */
 
-.input_content{
-  margin-left: 10%; 
+.input_content {
+  margin-left: 10%;
   width: 80%;
   height: 400rpx;
   background-color: #fff;
@@ -9,14 +9,16 @@
   border-radius: 20rpx;
   opacity: 0.9
 }
-.input{
-   margin-left: 20px;
-   margin-top: 10px;
+
+.input {
+  margin-left: 20px;
+  margin-top: 10px;
 }
-.ok{
+
+.ok {
   position: fixed;
   left: 25%;
-  top:500rpx;
+  top: 500rpx;
   display: flex;
   flex-direction: column;
   border-radius: 10rpx;
@@ -25,12 +27,13 @@
   border: 10rpx solid #056aee;
   background-color: #056aee;
   align-items: center;
- 
+
 }
+
 .word-ok {
   margin: auto;
   font-family: Songti TC;
   font-size: 32rpx;
-  color:#fff;
-    font-weight: 800;
+  color: #fff;
+  font-weight: 800;
 }

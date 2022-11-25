@@ -106,6 +106,21 @@ Page({
       url: '../suggestion/suggestion',
     })
   },
+  notebook(){
+    wx.navigateTo({
+      url: '../notebook/notebook',
+    })
+  },
+  collection(){
+    wx.navigateTo({
+      url: '../collection/collection',
+    })
+  },
+  history(){
+    wx.navigateTo({
+      url: '../history/history',
+    })
+  },
   forgive(){
     this.setData({toforgive:false})
   },
@@ -114,7 +129,7 @@ Page({
   },
   about_me(){
     wx.navigateTo({
-      url: '../about/about',
+      url: '../about1/about1',
     })
   },
   my_word_list(){

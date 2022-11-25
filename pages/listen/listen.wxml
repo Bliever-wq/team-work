@@ -12,7 +12,7 @@
     </view>       
 </view>
 
-<view class="weui-search-bar">
+<view class="weui-search-bar" bindtap="f2">
     <view class="weui-search-bar__form">
         <view class="weui-search-bar__box">
           <text class="text1">演讲</text>
@@ -23,7 +23,7 @@
 </view>
 </view>
 <view class="setting">
-<view class="weui-search-bar">
+<view class="weui-search-bar" bindtap="f3">
     <view class="weui-search-bar__form">
         <view class="weui-search-bar__box">
           <text class="text1">观点</text>
@@ -32,7 +32,7 @@
         <image class='about-banner' src="{{icon3}}" ></image>
     </view>       
 </view>
-<view class="weui-search-bar">
+<view class="weui-search-bar" bindtap="f4">
     <view class="weui-search-bar__form">
         <view class="weui-search-bar__box">
           <text class="text1">新闻</text>

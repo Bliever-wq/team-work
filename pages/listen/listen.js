@@ -25,5 +25,20 @@ f1:function(event){
   wx.navigateTo({
     url: "/grammar/grammar"
   })
+},
+f2:function(event){
+  wx.navigateTo({
+    url: "/speh/speh"
+  })
+},
+f3:function(event){
+  wx.navigateTo({
+    url: "/viep/viep"
+  })
+},
+f4:function(event){
+  wx.navigateTo({
+    url: "/news/news"
+  })
 }
   },)
